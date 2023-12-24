@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+
+    <body>
+    <header>
+        <h1 align="center">Rent Prediction System</h1>
+        <hr>
+        <br>
+    </header>
+    <div class="container">
+        <form method="POST"
+              action="/classify">
+
+            <div class="row">
+
+                <div class="col">
+                    <div>
+                        <label>Seller Type?:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">Male</option>
+                            <option value="0">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col">
+                     <div>
+                        <label>Bedroom:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">1</option>
+                            <option value="0">2</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <label>Layout Type:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">BHK</option>
+                            <option value="0">RK</option>
+                        </select>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <label>Property Type:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">Apartment</option>
+                            <option value="0">Studio Apartment</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <label>Locality:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">Bodakdev</option>
+                            <option value="0">CG Road</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <label>Furnish Type:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">Semi-Furnished</option>
+                            <option value="0">Furnished </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <label>Bathroom:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">1</option>
+                            <option value="0">2 </option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div>
+                        <label>City:</label>
+                        <select name="male" class="form-control">
+                            <option value="1">Pune</option>
+                            <option value="0">2 </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <button class="btn btn-success">Predict</button>
+            </div>
+        </form>
+        <footer>
+            <h4>This project belongs to Sunbeam Technologies</h4>
+        </footer>
+    </div>
+    </body>
+</html>
