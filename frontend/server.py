@@ -2,8 +2,8 @@ from flask import Flask, request, render_template
 import pickle
 
 # load the model
-# with open('../../models/cb.pkl', 'rb') as file:
-#     model = pickle.load(file)
+with open('xgboost.pkl', 'rb') as file:
+    model = pickle.load(file)
 
 
 # create a flask application
