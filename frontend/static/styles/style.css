@@ -6,7 +6,12 @@ body {
     color: #333;
     margin: 0;
 }
-
+div.container{
+    font-weight:bold;
+}
+.nav_test{
+    color: white;
+}
 header {
     background-color: rgb(58,70,100);
     color: whitesmoke;
@@ -38,7 +43,7 @@ nav,ul,li{
 nav,ul,li,a{
     font-size: 22px;
     text-decoration: none;
-    color: rgb(247, 243, 243);
+    color: rgb(247, 243, 242);
     padding: 10px;
     display: inline;
 }
@@ -86,7 +91,7 @@ button{
 }
 
 footer{
-    background-color: rgb(58,70,100);
+
     padding: 10px;
     margin: 10px;
 }
